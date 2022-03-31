@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura&display=swap"
+      rel="stylesheet"
+    />
+    <title>Warp-Club</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      :root {
+        font-size: 1.5rem;
+        font-family: "Jura", sans-serif;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        background-color: rgb(131, 126, 126);
+        height: 40px;
+        width: 100%;
+      }
+
+      .contact {
+        background-color: red;
+        border-radius: 5px;
+        height: 25px;
+        margin-left: auto;
+      }
+
+      a {
+        margin: 0 16px;
+        text-decoration: none;
+      }
+
+      span {
+          color: white;
+      }
+
+      .column1 {
+          background-image: url(./assets/background.jpg);
+          background-position: top;
+          flex: 1;
+          background-size: cover;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          writing-mode: vertical-lr;
+      }
+
+      .img2 {
+          width: 100%;
+          height: 100%;
+      }
+      
+      h2 {
+          display: flex;
+          color: red;
+          font-size: 2em;
+          font-weight: 900;
+      }
+
+      .row {
+          display: flex;
+      }
+
+      .column2 {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="events"><span>events</span></a>
+      <a href="articles"><span>articles</span></a>
+      <a href="community"><span>community</span></a>
+      <a class="contact" href="contact"><span>contact</span></a>
+    </header>
+
+    <div class="row">
+      <div class="column1">
+        <h2>Warp club</h2>
+      </div>
+
+      <div class="column2">
+        <img class="img2" src="./assets/main.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
