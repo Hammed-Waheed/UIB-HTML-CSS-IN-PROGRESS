@@ -1,1 +1,1 @@
-* UIB-HTML and CSS-Exercises
+* UIB-html/css-Exercises
