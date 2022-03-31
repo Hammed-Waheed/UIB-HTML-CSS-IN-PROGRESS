@@ -1,0 +1,28 @@
+legend {
+    color: blueviolet
+}
+
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+
+
+}
+
+.info{
+    display: block;
+}
+
+.info label {
+    font-weight: bold;
+}
+
+.info-div{
+    margin: 5px;
+}
+
+label, input {
+    display: block;
+}
+

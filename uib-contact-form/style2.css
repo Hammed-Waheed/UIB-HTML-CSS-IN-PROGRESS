@@ -1,0 +1,35 @@
+legend {
+    color: blueviolet
+}
+
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+
+
+}
+
+.infos{
+    display: block;
+}
+
+p {
+    font-weight: bold;  
+}
+
+.webdesign  {
+    display: inline-block;
+}
+
+button {
+    background-color: green;
+    border-style: none;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
