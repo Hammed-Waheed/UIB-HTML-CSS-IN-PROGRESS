@@ -1,0 +1,90 @@
+ .box body {
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
+
+.box > div {
+    height: 150px;
+}
+
+
+.boxs1 {
+    background-color: purple;
+}
+
+.boxs2 {
+    background-color: blueviolet;
+}
+
+.boxs3 {
+    background-color: blue;
+}
+
+.boxs4 {
+    background-color: green;
+}
+
+.boxs5 {
+    background-color: yellow;
+}
+
+.boxs6 {
+    background-color: darkorange;
+}
+
+.boxs7 {
+    background-color: red;
+}
+
+@media screen and (min-width: 600px) {
+    .boxs1,
+    .boxs2,
+    .boxs3,
+    .boxs4,
+    .boxs5,
+    .boxs6,
+    .boxs7 {
+      flex: 1 1 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .boxs1,
+    .boxs2 {
+      flex: 1 1 100%;
+    }
+  
+    .boxs3,
+    .boxs4,
+    .boxs5 {
+      flex: 1 1 33.33%;
+    }
+  
+    .boxs6,
+    .boxs7 {
+      flex: 1 1 100%;
+    }
+  }
+
+  @media screen and (min-width: 801px) {
+    .boxs1,
+    .boxs2 {
+      flex: 1 1 50%;
+    }
+  
+    .boxs3,
+    .boxs4,
+    .boxs5 {
+      flex: 1 1 33.33%;
+    }
+  
+    .boxs6,
+    .boxs7 {
+      flex: 1 1 50%;
+    }
+  }
