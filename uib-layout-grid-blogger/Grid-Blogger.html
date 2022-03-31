@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: Helvetica;
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        grid-template-rows: repeat(3, 200) repeat(2, 150) 100px 200px;
+        gap: 20px;
+        padding: 20px;
+        background: #f1f1f1;
+      }
+
+      div {
+        padding: 20px;
+      }
+
+      h2,
+      h3,
+      h4,
+      p {
+        padding: 5px 0;
+      }
+
+      p {
+        font-size: 1.4rem;
+        font-weight: 200;
+        text-align: justify;
+        line-height: 2.2rem;
+      }
+
+      .card3 p,
+      .card5 p {
+        font-size: 1.2rem;
+      }
+
+      img {
+        margin: 10px 0;
+        object-fit: cover;
+        display: block;
+        cursor: pointer;
+      }
+
+      header {
+        grid-area: 1/1/2/3;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 200px;
+        background: white;
+      }
+
+      .card1 {
+        grid-area: 2/1/4/2;
+        background: white;
+      }
+
+      .card2 {
+        grid-area: 4/1/7/2;
+        background: white;
+      }
+
+      .card3 {
+        grid-area: 2/2/3/3;
+        background: white;
+      }
+
+      .card4 {
+        grid-area: 3/2/5/3;
+        background: white;
+      }
+
+      .card5 {
+        grid-area: 5/2/6/3;
+        background: white;
+      }
+
+      footer {
+        grid-area: 7/1/8/3;
+        text-align: center;
+        background: #ddd;
+        line-height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h2>My Blog</h2></header>
+
+    <div class="card1">
+      <h2>BLOG - 1</h2>
+      <h4>Lorem, Jan 7, 2020</h4>
+      <img src="./images/b1.jpg" alt="blog-1" width="100%" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        eligendi rerum, obcaecati in quas odit deserunt delectus quo dolore
+        aperiam, iure minus, alias officiis ad natus? Consectetur ducimus esse
+        assumenda impedit error, voluptate expedita temporibus, deleniti
+        pariatur maxime beatae at earum ad optio quia et quam. Nostrum
+        asperiores impedit mollitia tempora assumenda deleniti error
+        repellendus, nemo magni ipsa quidem ut nulla commodi magnam distinctio
+        debitis reprehenderit. Unde labore atque perspiciatis eveniet sunt!
+        Consectetur, explicabo reprehenderit nam sed, iste eum aperiam dolore
+        fugiat maiores assumenda labore aspernatur tempore, veniam culpa?
+        Dolorum, ducimus? Suscipit necessitatibus repellat similique expedita
+        facere. Totam, atque dicta.
+      </p>
+    </div>
+
+    <div class="card2">
+      <h2>BLOG - 2</h2>
+      <h4>Lorem, Sep 2, 2020</h4>
+      <img src="./images/b2.jpg" alt="blog-2" width="100%" height="200px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa a
+        tempora libero aspernatur. Dolor perspiciatis eligendi ratione earum
+        voluptatum esse inventore illo nisi voluptatibus deserunt consectetur,
+        repellat, facere fuga architecto est nobis deleniti doloribus hic,
+        beatae provident iusto ullam optio fugit sapiente. Velit voluptas
+        aspernatur perspiciatis id deleniti est, illo facilis modi? Quas, qui
+        deserunt voluptate in voluptatum est laudantium optio itaque reiciendis
+        blanditiis dolor laboriosam dignissimos provident quia sequi amet quod
+        aliquid aperiam autem incidunt perferendis. Illo nihil hic odio tenetur
+        cupiditate quibusdam possimus incidunt, vel amet quaerat distinctio,
+        quis similique dolores quisquam repellendus fugit eos modi quos.
+      </p>
+    </div>
+
+    <div class="card3">
+      <h2>About Me</h2>
+      <img src="./images/dev.png" alt="dev" height="50px" />
+      <p>Some text about me optio fugit sapiente..</p>
+    </div>
+
+    <div class="card4">
+      <h3>Popular Post</h3>
+      <img src="./images/p1.jpg" alt="popular1" width="150px" height="70px" />
+      <img src="./images/p2.jpg" alt="popular1" width="150px" height="70px" />
+      <img src="./images/p3.jpg" alt="popular1" width="150px" height="70px" />
+    </div>
+
+    <div class="card5">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+
+    <footer><h2>Footer</h2></footer>
+  </body>
+</html>
