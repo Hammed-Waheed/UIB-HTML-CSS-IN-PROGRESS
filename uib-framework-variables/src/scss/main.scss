@@ -1,0 +1,62 @@
+// This is where you can import other stylesheets or write your scss code
+@import './_variables';
+@import './typography';
+@import './layout';
+
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// // Custom.scss
+// // Option B: Include parts of Bootstrap
+
+// // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
+
+// // 2. Include any default variable overrides here
+
+// // 3. Include remainder of required Bootstrap stylesheets
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// // 4. Include any optional Bootstrap components as you like
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/images";
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/grid";
+
+// // 5. Add additional custom code here
+
+
+body {
+    min-height: 100vh;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .nav {
+    min-height: 3em;
+    align-items: center;
+    > a {
+      margin: 0 1em;
+    }
+  }
+  
+  header {
+      padding-top: 2em;
+    background-image: url(../images/header.jpg);
+    min-height: 20em;
+    background-size: cover;
+  }
+  
+  main {
+    padding: 1em 0;
+    > div {
+        margin-bottom: 1em;
+    } 
+  }
+  
